@@ -1,0 +1,15 @@
+# Prevent system junk from being added
+$RECYCLE.BIN/
+System Volume Information/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore IDE/editor files
+.vscode/
+*.code-workspace
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
