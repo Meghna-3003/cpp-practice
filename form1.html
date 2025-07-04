@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating forms</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+    <label for="name" >NAME :</label><br/>
+    <input type="text" id="name"><br/>
+    <label for="email" >Email :</label><br/>
+    <input type="email" id="email"><br/>
+    <label for="Phone">Phone :</label><br/>
+    <input type="tel" id="Phone"><br/>
+    <label for="passwd">Password :</label><br/>
+    <input type="password" id="passwd"><br/>
+    <label for="fileUpload">Resume :</label><br/>
+    <input type="file" id="fileUpload"><br/>
+    <label for="experience"> Experience(in years) :</label><br/>
+    <input type="number" max="10" min="3" id="experience"><br/>
+    <fieldset>
+        <legend>Skills:</legend>
+        <input type="checkbox" id="html"><br/>
+        <label for="html">HTML</label><br/>
+        <input type="checkbox" id="css"><br/>
+        <label for="css">CSS</label><br/>
+        <input type="checkbox" id="js"><br/>
+        <label for="js">JavaScript</label><br/>
+    </fieldset>
+    <label for="edu">Highest Education :</label><br/>
+    <select name="higher Education" id="edu"><br/>
+        <option value="10th">10th</option>
+        <option value="12th">12th</option>
+        <option value="ug">Graduate</option>
+        <option value="pg">Post Graduate</option>
+    </select><br/>
+    <label for="available">Availability :</label><br/><br/>
+
+    <input type="radio" name="radio" id="full"><br/>
+    <label for="full" id="full">Full-Time</label><br/>
+
+     <input type="radio" name="radio" id="part"><br/>
+    <label for="part" >Part-Time</label><br/><br/>
+    <label for="comments">Additional Comments :</label><br/>
+    <textarea placeholder="comments" rows ="5" cols="15"></textarea>
+ </form>
+</body>
+</html>
