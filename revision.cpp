@@ -11,11 +11,6 @@ using namespace std;
     return true;}
 
 int main(){
-    if(checkPrime(7)){
-        cout<<"yes, it is prime";
-    }else{
-        cout<<"no, not a prime";
-    }
     //fibonacci series
     int n;
     cin>>n;
